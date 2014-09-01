@@ -1,0 +1,14 @@
+<phpunit backupGlobals="false"
+         colors="true"
+         processIsolation="false"
+         strict="true"
+         timeoutForSmallTests="5"
+         bootstrap="./phpunit-bootstrap.php"
+         verbose="true">
+
+    <testsuites>
+        <testsuite name="Bowling Project">
+            <directory suffix="Test.php">../</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
